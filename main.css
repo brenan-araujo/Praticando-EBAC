@@ -178,3 +178,17 @@ border-radius: 5px;
 background-color: #8e24aa;
 border-radius: 5px;
 }
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 5px;
+}
+
+header li a:hover {
+    color: #313142; 
+    padding: 5px;
+    background-color: #d0dae9; 
+    border-radius: 3px;
+}
