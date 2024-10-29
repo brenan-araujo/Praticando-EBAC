@@ -52,7 +52,6 @@ header li a{
 }
 
 .articles article img{
-/*height: 180px;*/
 width: 100%;
 border-radius: 5px;
 
@@ -100,11 +99,45 @@ section h2,
     font-size: 24px;
 }
 
-section h2{
+#sports h2  {
     font-size: 38px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: linear-gradient(135deg, rgba(255,255,255,1), rgba(255,255,255,0) );
-    border-radius: 50px;
+    background-color: #2f4032;
+    color: #f5f6fa;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#economy h2  {
+    font-size: 38px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(52, 32, 99);
+    color: #f5f6fa;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#tec h2  {
+    font-size: 38px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(65, 84, 100);
+    color: #f5f6fa;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#entertainment h2  {
+    font-size: 38px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(68, 57, 83);
+    color: #f5f6fa;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     padding: 5px;
