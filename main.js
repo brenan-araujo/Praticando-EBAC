@@ -21,6 +21,9 @@ form.addEventListener('submit', function(e){
         const containerMensagemSucesso = document.querySelector('.success-message');
         containerMensagemSucesso.innerHTML = mensagemDeSucesso;
         containerMensagemSucesso.style.display = 'block';
+
+        nomeBeneficiario.style = ' ';
+        document.querySelector('.error-message').style.display = 'none';
         
         nomeBeneficiario.value = ``;  
         numeroConta.value = ``; 
@@ -31,6 +34,9 @@ form.addEventListener('submit', function(e){
     else{
         nomeBeneficiario.style.border = '1px solid red';
         document.querySelector('.error-message').style.display = 'block';
+        containerMensagemSucesso = document.querySelector('.success-message');
+        containerMensagemSucesso.innerHTML = mensagemDeSucesso;
+        containerMensagemSucesso.style.display = 'none';
     }
 })
 
