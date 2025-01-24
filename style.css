@@ -78,3 +78,10 @@ button:hover{
     text-align: center;
     display: none;
 }
+
+input.error{
+    color: #cc2e2e;
+    border-color: #cc2e2e;
+    outline-color: #cc2e2e;
+
+}
